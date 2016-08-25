@@ -8,7 +8,8 @@ angular.module('userProfiles').controller('MainController', function($scope, mai
      });
   }
 
-
   $scope.getUsers();
+
+  $scope.toggleFav = mainService.toggleFav;
 
 });

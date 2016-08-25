@@ -10,5 +10,9 @@ angular.module('userProfiles').service('mainService', function($http) {
 		// }
   };
 
+	//toggle fav button
+	this.toggleFav = function(userIndex) {
+		
+	}
 
 });
